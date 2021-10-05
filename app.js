@@ -1,6 +1,7 @@
 
-let btnRed,btnBlue,btnBlack,btnWhite,btnGreen,img;
+let btnRefresh,btnRed,btnBlue,btnBlack,btnWhite,btnGreen,img;
 
+btnRefresh = document.querySelector("#btnRed");
 btnRed = document.querySelector("#btnRed");
 btnBlue = document.querySelector("#btnBlue");
 btnBlack = document.querySelector("#btnBlack");
@@ -24,6 +25,9 @@ function CambioColor(btn) {
             break;
         case "btnWhite":
             img.src="img/white.png";
+            break;
+        case "btnRefresh":
+            img.src="img/main.png";
             break;
                                             
     }
